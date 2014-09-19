@@ -137,7 +137,7 @@ class Reversi {
 			message = String.format("The %s won!", numBlacks > numWhites ? "black" : "white");
 		}
 
-		return String.format("%2d-%2d %s", numBlacks, numWhites, message);
+		return String.format("%02d-%02d %s", numBlacks, numWhites, message);
 	}
 
 	public String toString() {
