@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 
 
-public class Main {
+public class Reversi {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -22,9 +22,6 @@ public class Main {
 
 		System.out.println(reversi.judge());
     }
-}
-
-class Reversi {
 
 	private static final int NUM_X = 8;
 	private static final int NUM_Y = 8;
