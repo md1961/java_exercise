@@ -94,7 +94,7 @@ public class CharHistogramTest {
 	private static void doTestGetHistogram(String input, Map<Character, Long> mapCharCountsExpected) {
         CharHistogram charHistogram = new CharHistogram(input);
 		String expected = convertToString(mapCharCountsExpected);
-        assertEquals(charHistogram.getHistogram(), expected);
+        assertEquals(expected, charHistogram.getHistogram());
     }
 
 	private static String convertToString(Map<Character, Long> mapCharCounts) {
