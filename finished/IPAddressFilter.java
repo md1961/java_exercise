@@ -1,3 +1,5 @@
+package finished;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -24,6 +26,7 @@ public class IPAddressFilter {
 			}
 		}
     }
+
 
 	private static final int NUM_OCTETS = 4;
 	private static final String OCTET_DELIMITER = "\\.";
